@@ -10,8 +10,10 @@ const concatFiles = require('broccoli-concat');
 const stew = require('broccoli-stew');
 const writeFile = require('broccoli-file-creator');
 const replace = require('broccoli-string-replace');
-const esTranspiler = require('broccoli-babel-transpiler');
-const moduleResolver = require('amd-name-resolver').resolveModules({ throwOnRootAccess: false });
+const Babel = require('broccoli-babel-transpiler');
+const moduleResolver = require('amd-name-resolver').resolveModules({
+  throwOnRootAccess: false
+});
 const Funnel = require('broccoli-funnel');
 const packageJson = require('./package.json');
 const { map, mv } = stew;
@@ -78,7 +80,7 @@ module.exports = function(defaults) {
     ]
   });
 
-  emberDebug = esTranspiler(emberDebug, {
+  emberDebug = new Babel(emberDebug, {
     moduleIds: true,
     plugins: [
       ['module-resolver', { resolvePath: moduleResolver }],
