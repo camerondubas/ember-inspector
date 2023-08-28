@@ -1404,16 +1404,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.12.13", "@babel/types@^7.16.0", "@babel/types@^7.16.7", "@babel/types@^7.16.8", "@babel/types@^7.18.10", "@babel/types@^7.18.13", "@babel/types@^7.18.6", "@babel/types@^7.18.9", "@babel/types@^7.4.4", "@babel/types@^7.7.2":
-  version "7.18.13"
-  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.18.13.tgz#30aeb9e514f4100f7c1cb6e5ba472b30e48f519a"
-  integrity sha512-ePqfTihzW0W6XAU+aMw2ykilisStJfDnsejDCXRchCcMJ4O0+8DhPXf2YUbZ6wjBlsEmZwLK/sPweWtu8hcJYQ==
-  dependencies:
-    "@babel/helper-string-parser" "^7.18.10"
-    "@babel/helper-validator-identifier" "^7.18.6"
-    to-fast-properties "^2.0.0"
-
-"@babel/types@^7.19.0":
+"@babel/types@^7.12.13", "@babel/types@^7.16.0", "@babel/types@^7.16.7", "@babel/types@^7.16.8", "@babel/types@^7.18.10", "@babel/types@^7.18.13", "@babel/types@^7.18.6", "@babel/types@^7.18.9", "@babel/types@^7.19.0", "@babel/types@^7.4.4", "@babel/types@^7.7.2":
   version "7.19.0"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.19.0.tgz#75f21d73d73dc0351f3368d28db73465f4814600"
   integrity sha512-YuGopBq3ke25BVSiS6fgF49Ul9gH1x70Bcr6bqRLjWCkcX8Hre1/5+z+IiWOIerRMSSEfGZVB9z9kyq7wVs9YA==
@@ -1653,6 +1644,13 @@
   dependencies:
     "@simple-dom/interface" "^1.4.0"
 
+"@glimmer/interfaces@0.84.3":
+  version "0.84.3"
+  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.84.3.tgz#629777a4abe373b0785656f6c8d08989f5784805"
+  integrity sha512-dk32ykoNojt0mvEaIW6Vli5MGTbQo58uy3Epj7ahCgTHmWOKuw/0G83f2UmFprRwFx689YTXG38I/vbpltEjzg==
+  dependencies:
+    "@simple-dom/interface" "^1.4.0"
+
 "@glimmer/reference@^0.83.1":
   version "0.83.1"
   resolved "https://registry.yarnpkg.com/@glimmer/reference/-/reference-0.83.1.tgz#0345b95431b5bb19843b308e6311d1ef81e36192"
@@ -1674,6 +1672,16 @@
     "@handlebars/parser" "~2.0.0"
     simple-html-tokenizer "^0.5.11"
 
+"@glimmer/syntax@^0.84.3":
+  version "0.84.3"
+  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.84.3.tgz#4045a1708cef7fd810cff42fe6deeba40c7286d0"
+  integrity sha512-ioVbTic6ZisLxqTgRBL2PCjYZTFIwobifCustrozRU2xGDiYvVIL0vt25h2c1ioDsX59UgVlDkIK4YTAQQSd2A==
+  dependencies:
+    "@glimmer/interfaces" "0.84.3"
+    "@glimmer/util" "0.84.3"
+    "@handlebars/parser" "~2.0.0"
+    simple-html-tokenizer "^0.5.11"
+
 "@glimmer/tracking@^1.0.4", "@glimmer/tracking@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@glimmer/tracking/-/tracking-1.1.2.tgz#74e71be07b0a7066518d24044d2665d0cf8281eb"
@@ -1689,6 +1697,15 @@
   dependencies:
     "@glimmer/env" "0.1.7"
     "@glimmer/interfaces" "0.83.1"
+    "@simple-dom/interface" "^1.4.0"
+
+"@glimmer/util@0.84.3":
+  version "0.84.3"
+  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.84.3.tgz#9ae0166982c0b48aa94b02d6ba8c2c81976ade4b"
+  integrity sha512-qFkh6s16ZSRuu2rfz3T4Wp0fylFj3HBsONGXQcrAdZjdUaIS6v3pNj6mecJ71qRgcym9Hbaq/7/fefIwECUiKw==
+  dependencies:
+    "@glimmer/env" "0.1.7"
+    "@glimmer/interfaces" "0.84.3"
     "@simple-dom/interface" "^1.4.0"
 
 "@glimmer/util@^0.44.0":
@@ -3158,6 +3175,11 @@ babel-import-util@^1.1.0:
   resolved "https://registry.yarnpkg.com/babel-import-util/-/babel-import-util-1.1.0.tgz#4156b16ef090c4f0d3cdb869ff799202f24aeb93"
   integrity sha512-sfzgAiJsUT1es9yrHAuJZuJfBkkOE7Og6rovAIwK/gNJX6MjDfWTprbPngdJZTd5ye4F3FvpvpQmvKXObRzVYA==
 
+babel-import-util@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/babel-import-util/-/babel-import-util-2.0.0.tgz#99a2e7424bcde01898bc61bb19700ff4c74379a3"
+  integrity sha512-pkWynbLwru0RZmA9iKeQL63+CkkW0RCP3kL5njCtudd6YPUKb5Pa0kL4fb3bmuKn2QDBFwY5mvvhEK/+jv2Ynw==
+
 babel-loader@^8.0.6:
   version "8.2.3"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.2.3.tgz#8986b40f1a64cacfcb4b8429320085ef68b1342d"
@@ -3210,15 +3232,13 @@ babel-plugin-ember-modules-api-polyfill@^3.5.0:
   dependencies:
     ember-rfc176-data "^0.3.17"
 
-babel-plugin-ember-template-compilation@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-1.0.1.tgz#64baf434ff1b751c6292936f8b9eb75a2f8149dc"
-  integrity sha512-V/kY6CDyUNrl5Kx6UPKUPhzSKNfdrxNii+S5zK4dgJvVyoxFv7Ykg06Ct/yskY0LkA4wUPdYN7JOBtYJwHk2sg==
+babel-plugin-ember-template-compilation@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-2.2.0.tgz#b119fadcd5c831299fbd706420d2ea742848a659"
+  integrity sha512-1I7f5gf06h5wKdKUvaYEIaoSFur5RLUvTMQG4ak0c5Y11DWUxcoX9hrun1xe9fqfY2dtGFK+ZUM6sn6z8sqK/w==
   dependencies:
-    babel-import-util "^0.2.0"
-    line-column "^1.0.2"
-    magic-string "^0.25.7"
-    string.prototype.matchall "^4.0.5"
+    "@glimmer/syntax" "^0.84.3"
+    babel-import-util "^2.0.0"
 
 babel-plugin-filter-imports@^4.0.0:
   version "4.0.0"
@@ -5970,13 +5990,13 @@ ember-cli-htmlbars@^5.0.0, ember-cli-htmlbars@^5.0.1, ember-cli-htmlbars@^5.3.1,
     strip-bom "^4.0.0"
     walk-sync "^2.2.0"
 
-ember-cli-htmlbars@^6.0.0, ember-cli-htmlbars@^6.0.1, ember-cli-htmlbars@^6.1.0:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-6.1.1.tgz#f5b588572a5d18ad087560122b8dabc90145173d"
-  integrity sha512-DKf2rjzIVw9zWCuFsBGJScrgf5Mz7dSg08Cq+FWFYIxnpssINUbNUoB0NHWnUJK4QqCvaExOyOmjm0kO455CPg==
+ember-cli-htmlbars@^6.0.0, ember-cli-htmlbars@^6.0.1, ember-cli-htmlbars@^6.1.0, ember-cli-htmlbars@^6.2.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-6.3.0.tgz#ac85f2bbd09788992ab7f9ca832cd044fb8e5798"
+  integrity sha512-N9Y80oZfcfWLsqickMfRd9YByVcTGyhYRnYQ2XVPVrp6jyUyOeRWmEAPh7ERSXpp8Ws4hr/JB9QVQrn/yZa+Ag==
   dependencies:
     "@ember/edition-utils" "^1.2.0"
-    babel-plugin-ember-template-compilation "^1.0.0"
+    babel-plugin-ember-template-compilation "^2.0.0"
     babel-plugin-htmlbars-inline-precompile "^5.3.0"
     broccoli-debug "^0.6.5"
     broccoli-persistent-filter "^3.1.2"
@@ -6309,19 +6329,18 @@ ember-compatibility-helpers@^1.1.2, ember-compatibility-helpers@^1.2.0, ember-co
     fs-extra "^9.1.0"
     semver "^5.4.1"
 
-ember-concurrency@^2.0.3:
-  version "2.3.7"
-  resolved "https://registry.yarnpkg.com/ember-concurrency/-/ember-concurrency-2.3.7.tgz#52d786e37704b9054da1952638797e23714ec0e1"
-  integrity sha512-sz6sTIXN/CuLb5wdpauFa+rWXuvXXSnSHS4kuNzU5GSMDX1pLBWSuovoUk61FUe6CYRqBmT1/UushObwBGickQ==
+ember-concurrency@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/ember-concurrency/-/ember-concurrency-3.1.1.tgz#7f55ba4bfa4f42cfb23f8cb70aa3c6ef224e9500"
+  integrity sha512-doXFYYfy1C7jez+jDDlfahTp03QdjXeSY/W3Zbnx/q3UNJ9g10Shf2d7M/HvWo/TC22eU+6dPLIpqd/6q4pR+Q==
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
     "@babel/types" "^7.12.13"
-    "@glimmer/tracking" "^1.0.4"
+    "@glimmer/tracking" "^1.1.2"
     ember-cli-babel "^7.26.11"
     ember-cli-babel-plugin-helpers "^1.1.1"
-    ember-cli-htmlbars "^5.7.1"
+    ember-cli-htmlbars "^6.2.0"
     ember-compatibility-helpers "^1.2.0"
-    ember-destroyable-polyfill "^2.0.2"
 
 ember-decorators@^6.1.1:
   version "6.1.1"
@@ -6332,7 +6351,7 @@ ember-decorators@^6.1.1:
     "@ember-decorators/object" "^6.1.1"
     ember-cli-babel "^7.7.3"
 
-ember-destroyable-polyfill@^2.0.2, ember-destroyable-polyfill@^2.0.3:
+ember-destroyable-polyfill@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/ember-destroyable-polyfill/-/ember-destroyable-polyfill-2.0.3.tgz#1673ed66609a82268ef270a7d917ebd3647f11e1"
   integrity sha512-TovtNqCumzyAiW0/OisSkkVK93xnVF4NRU6+FN0ubpfwEOpRrmM2RqDwXI6YAChCgSHON1cz0DfQStpA1Gjuuw==
